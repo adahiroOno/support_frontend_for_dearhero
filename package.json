@@ -1,0 +1,27 @@
+{
+  "name": "support_frontend_for_dearhero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:scss": "node-sass src/assets/scss/style.scss -o src/assets/css --source-map src/assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adahiroOno/support_frontend_for_dearhero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adahiroOno/support_frontend_for_dearhero/issues"
+  },
+  "homepage": "https://github.com/adahiroOno/support_frontend_for_dearhero#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "ress": "^3.0.0"
+  }
+}
