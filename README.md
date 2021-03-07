@@ -29,4 +29,4 @@ npm install -y
 ```
 
 ## github pages
-https://adahiroono.github.io/support_frontend_for_dearhero
+https://adahiroono.github.io/support_frontend_for_dearhero/src/assets/html/index.html
