@@ -27,3 +27,6 @@ npm install -y
     - settings: 変数定義ディレクトリ 
 
 ```
+
+## github pages
+https://adahiroono.github.io/support_frontend_for_dearhero
