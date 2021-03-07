@@ -20,10 +20,10 @@ npm install -y
   - css: コンパイル後のcssが作成される
   - html: コンパイル後のhtmlが作成される
   - scss
-    - base: サイト共通定義ディレクトリ
+    - bases: サイト共通定義ディレクトリ
     - mixin: サイト内で何度も使うデザイン定義ディレクトリ
-    - module: パーツを定義するディレクトリ
-    - page: ページ専用CSS 
-    - setting: 変数定義ディレクトリ 
+    - modules: パーツを定義するディレクトリ
+    - pages: ページ専用CSS 
+    - settings: 変数定義ディレクトリ 
 
 ```
