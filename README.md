@@ -19,6 +19,7 @@ npm install -y
 - src/assets
   - css: コンパイル後のcssが作成される
   - html: コンパイル後のhtmlが作成される
+  - images: 画像ディレクトリ
   - scss
     - bases: サイト共通定義ディレクトリ
     - mixin: サイト内で何度も使うデザイン定義ディレクトリ
