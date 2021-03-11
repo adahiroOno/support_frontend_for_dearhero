@@ -1,5 +1,6 @@
 @import url(~ress/ress.css);
 body {
+  margin: 0;
   font-size: 14px;
   color: #1A1D21;
   font-family: Roboto;
@@ -9,5 +10,37 @@ body {
   line-height: 16px;
   letter-spacing: .04em;
   text-align: left; }
+
+.logo {
+  width: 57px; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 81px;
+  background-color: #FFFFFF;
+  background-size: cover;
+  box-shadow: 0 4px 4px rgba(126, 198, 203, 0.25);
+  padding: 0 180px;
+  align-items: center; }
+
+.nav__list {
+  display: flex;
+  list-style: none; }
+
+.nav__item {
+  display: flex;
+  font-family: Noto Sans CJK JP;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 32px; }
+
+.nav__item__link {
+  color: #1A1D21;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
