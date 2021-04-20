@@ -11,13 +11,16 @@ body {
 }
 
 .header {
+  background-color: $white;
+  box-shadow: 0 4px 4px rgba(126, 198, 203, .25);
+}
+.header__container  {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 180px;
+  margin: auto;
   height: 81px;
-  background-color: $white;
-  box-shadow: 0 4px 4px rgba(126, 198, 203, .25);
+  max-width: 1080px;
 }
 
 .header__logo {
@@ -26,6 +29,10 @@ body {
 }
 
 .nav {
+  @include mq(sp) { // 引数を個別に指定
+    display: none;
+  }
+
   .nav__list {
     display: flex;
     list-style: none;
