@@ -280,13 +280,14 @@ body {
 
 .header {
   background-color: #FFFFFF;
-  box-shadow: 0 4px 4px rgba(126, 198, 203, 0.25); }
+  box-shadow: 0 4px 4px rgba(126, 198, 203, 0.25);
+  padding: 0 6.4%; }
 
 .header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  margin: 0 auto;
   height: 81px;
   max-width: 1080px; }
 

@@ -13,12 +13,13 @@ body {
 .header {
   background-color: $white;
   box-shadow: 0 4px 4px rgba(126, 198, 203, .25);
+  padding: 0 6.4%;
 }
 .header__container  {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  margin: 0 auto;
   height: 81px;
   max-width: 1080px;
 }
@@ -29,10 +30,9 @@ body {
 }
 
 .nav {
-  @include mq(sp) { // 引数を個別に指定
+  @include mq(sp) {
     display: none;
   }
-
   .nav__list {
     display: flex;
     list-style: none;
