@@ -6,7 +6,7 @@
   "browserslist": [
     "last 2 versions"
   ],
-    "scripts": {
+  "scripts": {
     "all": "run-p server watch:css",
     "css:scss": "node-sass src/assets/scss/style.scss -o src/assets/css --source-map src/assets/css",
     "css:postcss": "postcss src/assets/css/style.css -o src/assets/css/style.min.css",
@@ -35,7 +35,5 @@
     "postcss-cli": "^8.3.1",
     "watch": "^1.0.2"
   },
-  "dependencies": {
-    "ress": "^3.0.0"
-  }
+  "dependencies": {}
 }
